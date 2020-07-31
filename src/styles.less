@@ -1,1 +1,256 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~ng-zorro-antd/ng-zorro-antd.dark.less';
+// -------- Overrides colors ----------------------------
+@primary-color: #fff;
+@error-color: #e74c3c;
+@info-color: #34495e;
+@success-color: #1dd1a1;
+@processing-color: #d081fe;
+@highlight-color: #e74c3c;
+@warning-color: #feca57;
+// Background color for `<body>`
+@body-background: #111111;
+// Base background color for most components
+@component-background: #191919;
+// Base background color for header
+@layout-header-background: #191919;
+// Link Active menu
+.link-menu-active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+// -------- Change appearance of scroll bar globally -------------------
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+::-webkit-scrollbar-track {
+  background: #1e1e1f;
+  border-radius: 0.625rem;
+}
+::-webkit-scrollbar-thumb {
+  background: @primary-color;
+  border-radius: 0.625rem;
+}
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+// -------- Custom classes for design -------------------
+.font-20 {
+  font-size: 1.25rem;
+}
+
+.trigger {
+  cursor: pointer;
+}
+
+.bg-components {
+  background-color: @component-background;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-5 {
+  margin-top: 0.3125rem;
+}
+
+.mt-10 {
+  margin-top: 0.625rem;
+}
+
+.mt-15 {
+  margin-top: 0.9375rem;
+}
+
+.mt-20 {
+  margin-top: 1.25rem;
+}
+
+.mt-30 {
+  margin-top: 1.875rem;
+}
+
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
+.mt-50 {
+  margin-top: 3.125rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-4 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-5 {
+  margin-bottom: 0.3125rem;
+}
+
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-30 {
+  margin-bottom: 1.875rem;
+}
+
+.ml-5 {
+  margin-left: 0.3125rem;
+}
+
+.ml-10 {
+  margin-left: 0.625rem;
+}
+
+.ml-20 {
+  margin-left: 1.25rem;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-5 {
+  margin-right: 0.3125rem;
+}
+
+.mr-10 {
+  margin-right: 0.625rem;
+}
+
+.mr-20 {
+  margin-right: 1.25rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-5 {
+  padding: 0.3125rem;
+}
+
+.p-10 {
+  padding: 0.625rem;
+}
+
+.p-20 {
+  padding: 1.25rem;
+}
+
+.p-30 {
+  padding: 1.875rem;
+}
+
+.p-50 {
+  padding: 3.125rem;
+}
+
+.pl-20 {
+  padding-left: 1.25rem;
+}
+
+.pr-20 {
+  padding-right: 1.25rem;
+}
+
+.w-10p {
+  width: 10%;
+}
+
+.w-15p {
+  width: 15%;
+}
+
+.w-20p {
+  width: 20%;
+}
+
+.w-25p {
+  width: 25%;
+}
+
+.w-30p {
+  width: 30%;
+}
+
+.w-40p {
+  width: 40%;
+}
+
+.w-45p {
+  width: 45%;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+.w-65p {
+  width: 65%;
+}
+
+.w-70p {
+  width: 70%;
+}
+
+.w-70-9p {
+  width: 70.9%;
+}
+
+.w-80p {
+  width: 80%;
+}
+
+.w-84p {
+  width: 84%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.items-center {
+  align-items: center;
+}
